@@ -80,5 +80,10 @@ let gamecounter = 100
 console.log(gamecounter);
 //prefix and postfix value inteview question  
 
+let x =10
+x++
+console.log(+true);
+
+
 
 
