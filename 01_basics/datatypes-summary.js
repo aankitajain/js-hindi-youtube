@@ -65,3 +65,33 @@ Return type of variables in JavaScript
        Function  =>  function
        Object  =>  object
        */
+
+
+       /*+++++++++++++++++++++++++++++++++++++++++++++
+       two types of memory : Stack (Primitive) and Heap (Non Primitive)
+       jab bhi stack memory use hti hai iska mtlb hota hai jo bhi variable declare hua hai uska u get a copy
+       when a memory is define under heap or when a object is define under heap u get the reference of original value so whatever change u do
+       it does to ogirinal value  */
+
+       let myYoutubename = "ankitajain"
+       let anothername = myYoutubename
+       anothername = "newchannelstart"
+       console.log(myYoutubename);
+       console.log(anothername);
+
+       let userOne ={
+        email: "user@google.com",
+        upi: "user@rbl"
+       }
+
+       let userTwo = userOne
+
+       userTwo.email = "abc.com"
+       userTwo.upi = "abc@rbl"
+       console.log(userOne);
+       console.log(userTwo);
+       
+       
+       
+       
+
