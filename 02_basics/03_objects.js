@@ -1,5 +1,6 @@
 //singteton when we declare like literal tab singelton ni bnta ,constructor se jab banta hai tab singelton
-//Object.create
+//Object.create  (yeh hai constructor k through created object)
+//const Jsuser = {}    (object creation yeh bhi hai by object literals)
 
 
 //object literals

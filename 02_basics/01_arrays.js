@@ -31,3 +31,5 @@ console.log(myn2);
 
 
 
+///
+const newArr1 = myarr2.join()
