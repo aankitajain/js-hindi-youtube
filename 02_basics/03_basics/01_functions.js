@@ -36,4 +36,36 @@ function addTwoNumbers(number1,number2){    //parameters
   }
 
     //console.log(loginUserMessage("Ankita"))
-    console.log(loginUserMessage("ankitajain"))
+    //console.log(loginUserMessage("ankitajain"))
+
+    function calculateCartPrice(var1,var2 ,...num1)
+{ return num1
+
+    }
+   //console.log(calculateCartPrice(2,4,7,8,9));
+
+  const user ={
+    username: "ankita",
+    price: 199
+  }
+
+  function handleObject(anyobject){
+  console.log(`Username is ${anyobject.username} and the price is ${anyobject.price}`);
+  
+  }
+  handleObject(user)
+  handleObject({
+    username:"sam",
+    price: 399
+  })
+
+  const myNewArray = [200,400,100,600]
+
+  function returnSecondValue(getArray1){
+    return getArray1[2]
+
+  }
+  //console.log(returnSecondValue(myNewArray));
+    console.log(returnSecondValue([100,200,300,400]));
+
+
